@@ -1,0 +1,203 @@
+fileFormatVersion: 2
+guid: f3025eb946a9f5743bdd2d8cedb5bf3f
+timeCreated: 1436525917
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Head
+    100004: Hips
+    100006: ikHandle1
+    100008: ikHandle2
+    100010: JawDown1
+    100012: jawDown2
+    100014: JawUp1
+    100016: JawUp2
+    100018: LeftFoot
+    100020: LeftLeg
+    100022: LeftToe
+    100024: LeftUpLeg
+    100026: nurbsCircle1
+    100028: nurbsCircle2
+    100030: nurbsCircle3
+    100032: nurbsCircle4
+    100034: nurbsCircle5
+    100036: polySurface1
+    100038: RightFoot
+    100040: RightLeg
+    100042: RightToe
+    100044: RightUpLeg
+    100046: Tail01
+    100048: Tail02
+    100050: Tail03
+    100052: Tail04
+    400000: //RootNode
+    400002: Head
+    400004: Hips
+    400006: ikHandle1
+    400008: ikHandle2
+    400010: JawDown1
+    400012: jawDown2
+    400014: JawUp1
+    400016: JawUp2
+    400018: LeftFoot
+    400020: LeftLeg
+    400022: LeftToe
+    400024: LeftUpLeg
+    400026: nurbsCircle1
+    400028: nurbsCircle2
+    400030: nurbsCircle3
+    400032: nurbsCircle4
+    400034: nurbsCircle5
+    400036: polySurface1
+    400038: RightFoot
+    400040: RightLeg
+    400042: RightToe
+    400044: RightUpLeg
+    400046: Tail01
+    400048: Tail02
+    400050: Tail03
+    400052: Tail04
+    4300000: polySurface1
+    7400000: Run
+    9500000: //RootNode
+    13700000: polySurface1
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Run
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: nurbsCircle1
+        weight: 1
+      - path: nurbsCircle1/Hips
+        weight: 1
+      - path: nurbsCircle1/Hips/Head
+        weight: 1
+      - path: nurbsCircle1/Hips/JawDown1
+        weight: 1
+      - path: nurbsCircle1/Hips/JawDown1/jawDown2
+        weight: 1
+      - path: nurbsCircle1/Hips/JawUp1
+        weight: 1
+      - path: nurbsCircle1/Hips/JawUp1/JawUp2
+        weight: 1
+      - path: nurbsCircle1/Hips/LeftUpLeg
+        weight: 1
+      - path: nurbsCircle1/Hips/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: nurbsCircle1/Hips/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: nurbsCircle1/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToe
+        weight: 1
+      - path: nurbsCircle1/Hips/RightUpLeg
+        weight: 1
+      - path: nurbsCircle1/Hips/RightUpLeg/RightLeg
+        weight: 1
+      - path: nurbsCircle1/Hips/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: nurbsCircle1/Hips/RightUpLeg/RightLeg/RightFoot/RightToe
+        weight: 1
+      - path: nurbsCircle1/Hips/Tail01
+        weight: 1
+      - path: nurbsCircle1/Hips/Tail01/Tail02
+        weight: 1
+      - path: nurbsCircle1/Hips/Tail01/Tail02/Tail03
+        weight: 1
+      - path: nurbsCircle1/Hips/Tail01/Tail02/Tail03/Tail04
+        weight: 1
+      - path: nurbsCircle1/nurbsCircle2
+        weight: 1
+      - path: nurbsCircle1/nurbsCircle2/ikHandle1
+        weight: 1
+      - path: nurbsCircle1/nurbsCircle3
+        weight: 1
+      - path: nurbsCircle1/nurbsCircle3/ikHandle2
+        weight: 1
+      - path: nurbsCircle1/nurbsCircle4
+        weight: 1
+      - path: nurbsCircle1/nurbsCircle5
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
